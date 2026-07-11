@@ -1,0 +1,139 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+body
+{
+    background: honeydew;
+}
+header{
+    background:#2563eb;
+    padding:18px 80px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+nav a:hover{
+    color:#FFD700;
+}
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+nav ul{
+    display:flex;
+    list-style:none;
+}
+nav ul li{
+    margin-left:20px;
+}
+nav ul li a{
+    color:white;
+    text-decoration:none;
+}
+nav button{
+    background:white;
+    color:#0d6efd;
+    border:none;
+    padding:10px 20px;
+    border-radius:6px;
+    cursor:pointer;
+}
+.hero{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:50px 100px;
+    min-height: 80vh;
+    background: linear-gradient(135deg,#eef5ff,#dbeafe);
+}
+.hero-text{
+    font-size: 60px;
+    line-height: 1.2;
+    color: #1e293b;
+}
+.hero-text span{
+color:#2563eb;
+}
+button:hover
+{
+transform:translateY(-3px);
+box-shadow:0 15px 35px rgba(37, 99, 235, 0.3);
+}
+.hero-text h1{
+    font-size:60px;
+    margin-bottom:20px;
+}
+.hero-image img{
+    box-shadow: 0 15px 35px rgba(0,0,0,0.25);
+}
+.hero-text p{
+    font-size:20px;
+    margin-bottom:20px;
+}
+.hero-text button{
+    background:#2563eb;
+    color:whitesmoke;
+    padding:15px 35px;
+    border:none;
+    border-radius:30px;
+    font-size: 17px;
+    cursor:pointer;
+    transition: 0.3s;
+}
+.hero-text button:hover
+{
+    background: #1d4ed8;
+    transform: translate(-3px);
+}
+.hero-image img{
+    width:350px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #4F46E5;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease;
+}
+.hero-image img.hover{
+    transform: scale(1.05);
+}
+.feature-heading{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.features{
+    display:flex;
+    justify-content:center;
+    gap:40px;
+    padding: 40px 80px ;
+}
+.card{
+    background: turquoise;
+    width:300px;
+    padding: 35px;
+    border-radius:15px;
+    text-align:center;
+    box-shadow:0 8px 20px rgba(0,0,0,0.12);
+    transition: 0.3s;
+    
+}
+.card:hover{
+    transform:translateY(-10px);
+    transition:0.3s;
+}
+.about{
+    text-align:center;
+    padding:60px;
+}
+footer
+{
+    background:#0d6efd;
+    color:white;
+    text-align:center;
+    padding:20px;
+}

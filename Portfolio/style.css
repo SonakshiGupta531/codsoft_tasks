@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+section {
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+h2 {
+    color: #0077b5;
+    border-bottom: 2px solid #0077b5;
+    padding-bottom: 5px;
+}
+a {
+    color: #0077b5;
+    text-decoration: none;
+}
+a:hover {
+    color: #005582;
+    text-decoration: underline;
+}
+ul {
+    list-style-type: square;
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+p {
+    line-height: 1.6;
+}
+li {
+    margin-bottom: 10px;
+}
+.profile_{
+    text-align: center;
+    margin-top: 20px;
+}
+.profile-img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #333 ;
+}
+.resume-btn{
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 15px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px ;
+}
+.profile-pic{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid white;
+    display: block;
+    margin: 0 auto 15px;
+}
