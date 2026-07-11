@@ -64,9 +64,9 @@ Through these tasks, I gained hands-on experience in:
 
 ## 🔗 Connect With Me
 
-**LinkedIn:** [Add your LinkedIn profile link]  
+**LinkedIn:** www.linkedin.com/in/sonakshi-gupta-07a709244
 
-**GitHub:** [Add your GitHub profile link]
+**GitHub:** https://github.com/SonakshiGupta531
 
 
 ## ⭐ Acknowledgement
@@ -75,3 +75,17 @@ Thanks to **CodSoft** for providing this internship opportunity and helping me e
 
 
 ## 📂 Repository Structure
+CodSoft/
+│
+├── Calculator/
+│ ├── index.html
+│ ├── style.css
+│ └── script.js
+│
+├── Landing-Page/
+│ ├── index.html
+│ └── style.css
+│
+└── Portfolio/
+├── index.html
+└── style.css
